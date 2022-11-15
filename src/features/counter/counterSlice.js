@@ -9,6 +9,7 @@ function counterReducer(state = initialState, action) {
         ...state,
         items: state.items.concat(state.items.length + 1),
       };
+   
     default:
       return state;
   }
